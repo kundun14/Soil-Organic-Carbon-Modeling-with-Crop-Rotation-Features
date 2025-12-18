@@ -40,10 +40,10 @@ $$
 
 ```text
 ├── FEATURES_MATRIX_PREDICTION.gpkg    # Geospatial feature matrix
-├── MO_MODELING_DATA.gpkg              # Main input data for modeling
-├── MO_PREDICTIONS_4000.gpkg           # Prediction outputs
+├── MO_MODELING_DATA.gpkg              # Main feature matrix for modeling
+├── MO_PREDICTIONS_4000.gpkg           # Prediction outputs over all croplands
 ├── soc_features.csv                   # Processed CSV input for R script
-├── min_script.R                       # Main analysis script
+├── mo_rf.R                            # Main analysis script
 └── OUTPUT_CIP_ROT_01_09_2024/         # Output directory
     ├── MO_MODELING/                   # Saved RDS models and stats
     └── PLOTS_21_11/                   # Generated plots (Scatter, PDP, Importance)
