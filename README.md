@@ -39,9 +39,9 @@ $$
 ## Repository Structure
 
 ```text
-├── FEATURES_MATRIX_PREDICTION.gpkg    # Geospatial feature matrix
-├── MO_MODELING_DATA.gpkg              # Main feature matrix for modeling
-├── MO_PREDICTIONS_4000.gpkg           # Prediction outputs over all croplands
+├── FEATURES_MATRIX_PREDICTION.gpkg    # Geospatial feature matrix for all croplands
+├── MO_MODELING_DATA.gpkg              # Feature matrix for modeling at soil sampled sites
+├── MO_PREDICTIONS_4000.gpkg           # SOC prediction outputs over all croplands
 ├── soc_features.csv                   # Processed CSV input for R script
 ├── mo_rf.R                            # Main analysis script
 └── OUTPUT_CIP_ROT_01_09_2024/         # Output directory
